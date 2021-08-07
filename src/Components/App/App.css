@@ -1,0 +1,137 @@
+* {box-sizing: border-box;}
+
+.App {
+  --header-icon-size: 32px;
+  --search-icon-size: 20px;
+  --message-icon-size: 26px;
+  display: flex;
+  flex-direction: column;
+  width: 412px;
+  /* height: 660px; */
+  height: calc(100vh - 2rem);
+  margin: 1rem auto;
+  overflow: scroll;
+  background-color: #FFF;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 80px;
+  background-color: #FFF;
+}
+
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+}
+
+.Header h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 24px;
+}
+
+.fa-address-card {
+    font-size: var(--header-icon-size);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.fa-plus {
+  font-size: var(--header-icon-size);
+}
+
+.fa-search {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  font-size: var(--search-icon-size);
+}
+
+.Search {
+  padding: 1rem;
+  background: #F2F2F2;
+}
+
+.Search form {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+
+.Search input {
+  width: 100%;
+  border: 1px solid #abc;
+  border-radius: 3px;
+  padding: 0.5rem;
+  padding-left: calc(var(--search-icon-size) + 1rem);
+  font-size: 1rem;
+}
+
+.CardList {
+  padding: 0 1rem 1rem;
+  overflow-x: scroll;
+}
+
+.Card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-right {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.fa-comment-dots {
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem;
+  font-size: var(--message-icon-size);
+  color: #757575;
+}
+
+.contact-avatar {
+  width: 40px;
+  /* padding: 1rem 0; */
+}
+
+img.avatar {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.contact-info {
+  padding-left: 1rem;
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.lastName, .firstName {
+  font-weight: 700;
+  color: #373737;
+}
+
+.phone, .email {
+  font-weight: 500;
+  color: #878787;
+}
