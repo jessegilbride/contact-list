@@ -17,14 +17,13 @@
 
 ## Screenshots
 
-<div style='display:inline-block; width:45%; margin-right:2%;'>
-  <span></span>
-  <img src='https://github.com/jessegilbride/contact-list/blob/main/repo_images/contact-list-v1.jpg?raw=true' alt='contact list screenshot.'>
-</div>
-<div style='display:inline-block; width:45%; margin-right:2%;'>
-  <span></span>
-  <img src='https://github.com/jessegilbride/contact-list/blob/main/repo_images/contact-list-v1.gif?raw=true' alt='contact list screenshot as animated gif.'>
-</div>
+<span></span>
+<img src='https://github.com/jessegilbride/contact-list/blob/main/repo_images/contact-list-v1.jpg?raw=true' alt='contact list screenshot.'>
+
+<br />
+
+<span></span>
+<img src='https://github.com/jessegilbride/contact-list/blob/main/repo_images/contact-list-v1.gif?raw=true' alt='contact list screenshot as animated gif.'>
 
 ## Misc Info
 
