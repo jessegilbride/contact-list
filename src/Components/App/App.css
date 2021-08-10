@@ -1,5 +1,15 @@
 * {box-sizing: border-box;}
 
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: gray;
+  /* filter: hue-rotate(120deg); */
+}
+
 .App {
   --header-icon-size: 32px;
   --search-icon-size: 20px;
